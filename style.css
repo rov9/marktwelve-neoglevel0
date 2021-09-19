@@ -15,7 +15,6 @@ width:70%;
 margin:auto;
 text-align: center;
 display: block;
-text-align:center;
 }
 a{
   width:100%;
@@ -31,7 +30,7 @@ header{
   border-bottom-right-radius:8rem;
   color: 
 #CBD5E1;
-padding: 0.7rem;
+padding: 1.5rem;
 }
 
 .angle-input
