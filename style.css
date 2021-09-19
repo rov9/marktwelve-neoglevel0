@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+Bhaina+2&family=Quattrocento&display=swap');
+
+:root{
+    --primary-color:  
+      #6366F1;
+  }  
+body{
+  font-family: 'Abel', sans-serif;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-family: 'Quattrocento', serif;
+}
+.container
+{
+width:70%;
+margin:auto;
+text-align: center;
+display: block;
+text-align:center;
+}
+a{
+  width:100%;
+  text-decoration:none;
+  color:#CBD5E1;
+  font-size: small;
+}
+header{
+  width: 100%;
+  text-decoration:none;
+  background-color: #6366F1;
+  border-bottom-left-radius:8rem; 
+  border-bottom-right-radius:8rem;
+  color: 
+#CBD5E1;
+padding: 0.7rem;
+}
+
+.angle-input
+{
+  width: 20%;
+  display:block;
+  margin: auto;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+#is-triangle-btn{
+  display: block;
+  width:6%;
+  margin: auto;
+  background: var(--primary-color);
+  border-radius: 0.5rem;
+  outline: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
