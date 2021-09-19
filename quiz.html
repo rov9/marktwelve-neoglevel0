@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+<link rel="stylesheet" href="quizStyling.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <header>
+    <h1>Quiz on triangles</h1>
+    
+        <a href="/isTriangle.html">Is it Triangle</a>
+        <a href="/pages/calculate-hypo.html">Hypotenuse</a>
+        <a href="/pages/calculate-area.html">Area of Triangle</a>
+        <a href="/quiz.html" >Quiz</a>
+      </header>
+      <h3>For each correct there is 1 point</h3>
+      <form class="quiz-form">
+        <div class="question-container">
+          <p>
+            A triangle with one angle greater than 90 degrees?
+          </p>
+          <label><input type="radio" name="question1" value="equilateral" />equilateral</label>
+          <label><input type="radio" name="question1" value="acute" />acute</label>
+          <label><input type="radio" name="question1" value="obtuse" />obtuse</label>
+        </div>
+        <div class="question-container">
+          <p>
+            A triangle that has no equal sides and no equal angles is known as
+          </p>
+          <label>
+            <input type="radio" name="question2" value="isosceles triangle" />isosceles triangle
+          </label>
+          <label
+            ><input type="radio" name="question2" value="scalene triangle" />scalene triangle</label
+          >
+          
+        </div>
+        <div class="question-container">
+          <p>A triangle that has 2 equal sides and 2 equal angles is known as</p>
+          <label>
+            <input type="radio" name="question3" value="isosceles triangle" />
+            isosceles triangle
+          </label>
+          <label
+            ><input type="radio" name="question3" value="right angle" />two
+            right angles</label
+          >
+        </div>
+        <div class="question-container">
+          <p>Which of the following can form a right angled triangle?</p>
+          <label>
+            <input type="radio" name="question4" value="14, 15, 26" />
+            14, 15, 26
+          </label>
+          <label>
+            <input type="radio" name="question4" value="12, 16, 20" />
+            12, 16, 20</label
+          >
+        </div>
+        <div class="question-container">
+          <p>Which of the following triangles are always similar?</p>
+          <label>
+            <input type="radio" name="question5" value="Equilateral triangle" />
+            Equilateral triangle
+          </label>
+          <label>
+            <input type="radio" name="question5" value="Isosceles triangle" />
+            Isosceles triangle</label
+          >
+        </div>
+        <div class="question-container">
+          <p>
+            If one angle of a triangle is obtuse, then which one of the
+            following is the possible measure of remaining angles?
+          </p>
+          <label>
+            <input type="radio" name="question6" value="100°" />
+            100°
+          </label>
+          <label>
+            <input type="radio" name="question6" value="85°" />
+            85°</label
+          >
+        </div>
+
+        <div class="question-container">
+          <p>
+            If the largest angle in a triangle is 70°, what is the least
+            possible value of the smallest angle of the triangle?
+          </p>
+          <label>
+            <input type="radio" name="question7" value="30°" />
+            30°
+          </label>
+          <label>
+            <input type="radio" name="question7" value="10°" />
+            10°
+          </label>
+        </div>
+
+        <div class="question-container">
+          <p>The perimeter of scalene triangle with sides a, b, c is</p>
+          <label>
+            <input type="radio" name="question8" value="a + b + c" />
+            a + b + c
+          </label>
+          <label>
+            <input type="radio" name="question8" value="2a" />
+            2a
+          </label>
+          <label>
+            <input type="radio" name="question8" value="None of these" />
+            None of these
+          </label>
+        </div>
+
+        <div class="question-container">
+          <p>In a right triangle, the longest side is</p>
+          <label>
+            <input type="radio" name="question9" value="Perpendicular" />Perpendicular
+          </label>
+          <label>
+            <input type="radio" name="question9" value="Hypotenuse" />
+            Hypotenuse
+          </label>
+          <label>
+            <input type="radio" name="question9" value="Base" />
+            Base
+          </label>
+        </div>
+
+        <div class="question-container">
+          <p>
+            There is a right triangle PQR where: angle Q = 90°; angle P = angle
+            R. What is the measure of angles P and R?
+          </p>
+          <label>
+            <input type="radio" name="question10" value="85°" />
+            85°
+          </label>
+          <label>
+            <input type="radio" name="question10" value="65°" />
+            65°
+          </label>
+          <label>
+            <input type="radio" name="question10" value="45°" />
+            45°
+          </label>
+        </div>
+      </form>
+      <button class="btn-submit">Submit</button>
+      <p class="output"></p>
+      <footer>
+        <p>contact</p>
+        <a class="links" href="https://github.com/rov9" target="_blank"> 
+          <i class="fa fa-github" style="font-size:42px;color:#818CF8;" aria-hidden="true"></i>
+        </a>
+        <a class="links" href="https://discord.com/channels/@me" target="_blank">
+          <i class="fa fa-discord-alt"style="font-size:42px;color:#818CF8;" aria-hidden="true"></i>
+        </a>
+        <a class="links" href="https://twitter.com/rovd_30" target="_blank">
+          <i class="fa fa-twitter" style="font-size:42px;color:#818CF8;" aria-hidden="true"></i>
+        </a>
+        <a
+          class="links"
+          href="https://www.instagram.com/rov_d/"
+          target="_blank"
+        >
+          <i class="fa fa-instagram" style="font-size:42px;color:#818CF8;"></i>
+        </a>
+      </footer>
+  </div>
+ <script src="quiz.js"></script>
+</body>
+</html>
