@@ -15,8 +15,8 @@ const correctAnswers = [
   "45°",
 ];
 
-function calculateScore(e) {
-  e.preventDefault();
+function calculateScore(event) {
+  event.preventDefault();
 
   const formResults = new FormData(quizform);
   let score = 0;
