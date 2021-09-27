@@ -15,11 +15,12 @@ const correctAnswers = [
   "45°",
 ];
 
-function calculateScore(e) {
-  e.preventDefault();
+function calculateScore() {
+  
 
   const formResults = new FormData(quizform);
-     index = 0;
+  let score = 0;
+  let index = 0;
   for (let value of formResults.values()) {
     if (value === correctAnswers[index]) {
       score = score + 1;
