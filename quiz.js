@@ -2,18 +2,7 @@ const quizform = document.querySelector(".quiz-form");
 const submitBtn = document.querySelector(".btn-submit");
 const outputMessage = document.querySelector(".output");
 
-const correctAnswers = [
-  "obtuse",
-  "scalene triangle",
-  "Isosceles triangle",
-  "12, 16, 20",
-  "Equilateral triangle",
-  "100°",
-  "30°",
-  "a + b + c",
-  "Hypotenuse",
-  "45°",
-];
+const correctAnswers = ["obtuse","scalene triangle","Isosceles triangle","12, 16, 20","Equilateral triangle","100°","30°","a + b + c","Hypotenuse","45°"];
 
 function calculateScore(event) {
   event.preventDefault();
@@ -30,4 +19,5 @@ function calculateScore(event) {
   outputMessage.innerText = "The score is " + score;
 }
 
-submitBtn.addEventListener("click", calculateScore);
+// submitBtn.addEventListener("submit", calculateScore);
+quizform.addEventListener("submit", calculateScore);
