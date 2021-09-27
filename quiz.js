@@ -17,7 +17,8 @@ function calculateScore(event) {
     index = index + 1;
   }
   outputMessage.innerText = "The score is " + score;
+  // console.log(score);
 }
 
-// submitBtn.addEventListener("submit", calculateScore);
+// submitBtn.addEventListener("click", calculateScore);
 quizform.addEventListener("submit", calculateScore);
